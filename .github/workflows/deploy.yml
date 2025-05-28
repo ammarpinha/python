@@ -19,4 +19,4 @@ jobs:
           script: |
             cd /root/python
             pip install -r requirements.txt
-            python app.py
+            python333 app.py
