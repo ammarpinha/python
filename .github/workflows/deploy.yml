@@ -17,6 +17,6 @@ jobs:
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SERVER_KEY }}
           script: |
-            cd /root/python
-            pip install -r requirements.txt
-            python333 app.py
+            sudo cd /root/python
+            sudo pip install -r requirements.txt
+            sudo python333 app.py
